@@ -1,0 +1,5 @@
+dynamic_redirect_route.add_form:
+  title: 'Add dynamic redirect route'
+  route_name: entity.dynamic_redirect_route.add_form
+  appears_on:
+    - entity.dynamic_redirect_route.collection

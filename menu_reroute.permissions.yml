@@ -1,0 +1,3 @@
+administer dynamic_redirect_route:
+  title: 'Administer dynamic redirect routes'
+  restrict access: true

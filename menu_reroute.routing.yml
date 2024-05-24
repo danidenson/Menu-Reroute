@@ -1,0 +1,10 @@
+entity.dynamic_redirect_route.settings:
+  path: 'admin/structure/dynamic-redirect-route'
+  defaults:
+    _form: '\Drupal\menu_reroute\Form\DynamicRedirectRouteSettingsForm'
+    _title: 'Dynamic redirect route'
+  requirements:
+    _permission: 'administer dynamic_redirect_route'
+
+route_callbacks:
+    - '\Drupal\menu_reroute\Routing\DynamicMOTMenu::routes'

@@ -1,0 +1,5 @@
+name: 'Menu Reroute'
+type: module
+description: 'Menu item reroute'
+package: Custom
+core_version_requirement: ^10

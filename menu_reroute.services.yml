@@ -1,0 +1,11 @@
+# menu_reroute.services.yml
+services:
+  menu_reroute.custom_constraint:
+    class: Drupal\menu_reroute\Plugin\Validation\Constraint\RouteExistsConstraint
+    tags:
+      - { name: validation.constraint }
+  menu_reroute.custom_constraint_validator:
+    class: Drupal\menu_reroute\Plugin\Validation\Constraint\RouteExistsConstraintValidator
+    arguments: []
+    tags:
+      - { name: validation.constraint_validator, alias: 'custom_constraint' }

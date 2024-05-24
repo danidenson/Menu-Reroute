@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_reroute
+id: dynamic_redirect_route_save_action
+label: 'Save dynamic redirect routes'
+type: dynamic_redirect_route
+plugin: entity:save_action:dynamic_redirect_route
+configuration: {  }

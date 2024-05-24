@@ -1,0 +1,10 @@
+entity.dynamic_redirect_route.edit_form:
+  route_name: entity.dynamic_redirect_route.edit_form
+  group: dynamic_redirect_route
+  title: 'Edit'
+
+entity.dynamic_redirect_route.delete_form:
+  route_name: entity.dynamic_redirect_route.delete_form
+  group: dynamic_redirect_route
+  title: 'Delete'
+  weight: 10

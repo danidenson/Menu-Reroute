@@ -1,0 +1,11 @@
+entity.dynamic_redirect_route.settings:
+  title: 'Dynamic redirect route'
+  description: 'Configure a Dynamic redirect route entity type.'
+  route_name:  entity.dynamic_redirect_route.settings
+  parent: system.admin_structure
+
+entity.dynamic_redirect_route.collection:
+  title: 'Dynamic redirect routes'
+  description: 'List of dynamic redirect routes.'
+  route_name: entity.dynamic_redirect_route.collection
+  parent: system.admin_content
